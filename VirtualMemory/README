@@ -1,0 +1,19 @@
+bashar.rashed, yazan.saideh
+Student bashar rashed (213541097), Student Yazan saideh (325919033)
+EX: 4
+
+FILES:
+VirtualMemory.cpp
+VirtualMemory.h
+
+
+REMARKS:
+This virtual memory implementation employs a multi-level page table hierarchy to translate virtual
+addresses to physical ones on demand. When a page fault occurs, a physical frame is allocated using
+a specific strategy: prioritizing the next available unused frame, then reusing an empty intermediate
+page table frame, and finally, if necessary, evicting an existing page. The eviction policy is based on
+a custom "cyclic distance" algorithm, selecting the leaf page farthest from the current targetPage in a
+conceptual ring. A key technique used to maintain integrity is the forbid array, which prevents any page
+table frame actively involved in the current address translation path from being selected for eviction or
+reuse. The system interfaces with an abstracted physical memory layer via PMread, PMwrite, PMevict, and
+PMrestore functions.

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex4Ver2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4Ver2">
+				<Option output="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/ex4Ver2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4Ver2"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4Ver2/fast">
+				<Option output="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/ex4Ver2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4Ver2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/ex4Ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/MemoryConstants_test1.h">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/MemoryConstants_test2.h">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/PhysicalMemory.cpp">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/PhysicalMemory.h">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/SimpleTest.cpp">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/VirtualMemory.cpp">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/VirtualMemory.h">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/test1_write_read_all_virtual_memory.cpp">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/test2_write_one_page_twice_and_read.cpp">
+			<Option target="ex4Ver2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/ex4Ver2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
