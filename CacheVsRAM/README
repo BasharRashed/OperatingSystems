@@ -1,0 +1,80 @@
+bashar.rashed, Yazan.saideh
+Student bashar rashed (213541097), Student Yazan saideh (325919033)
+EX: 1
+
+FILES:
+memory_latency.cpp -- a file with some code
+MakeFile - MakeFile for compilation
+results.png -- picture of latency graph
+lscpu.png -- picture of lscpu command result
+page_size.png -- picture of getconf PAGE_SIZE command result
+
+
+REMARKS:
+These are some remarks that
+I want the graders to know
+about this submission.
+
+ANSWERS:
+
+Assignment 1:
+
+The program has 2 argument options:
+
+1) it takes 0 or 2 or more arguments:
+the program starts normally by allocating memory in the heap,
+getting the memory ready and maps the libc library onto it,
+after that using dup(2) it duplicates the stderr output on to file descriptor 3 with read and write values.
+after this since depending on the number of arguments in this case it writes:
+	"Error. The program should receive a single argument. Exiting."
+	": Success "
+then it returns with exit code 0.
+
+2) it takes 1 argument (named test_argument)
+similarly to the start of the program with any number of arguments it gets the heap ready,
+but now it creates a directory named "Welcome"
+and creats 3 different directories under it named: 
+	A)Welcome (meaning Welcome/Welcome) with file discreptor code 3
+	B)To (meaning Welcome/To) with file discreptor code 4
+	C)OS-2024 (meaning Welcome/OS-2024) with file discreptor code 5
+after that it write to each one these messages as follows:
+A) in Welcome/Welcome it writes: "bashar.rashed\nIf you haven't read the course guidelines yet --- do it right now!\ntest_argument"
+B) in Welcome/To it writes: "Start exercises early!"
+C) in Welcome/OS-2024 it writes: "Good luck!"
+then it deletes the directories : Welcome/Welcome, Welcome/To, Welcome/OS-2024
+then it deletes the main directory: Welcome
+then it returns with exit code 0.
+
+Assignment 2:
+
+-) in the graph we notice the difference of latency times between sequential and random memory access,
+	where the sequential memory access maintains a fairly stable latency around 1 nanosecond,
+	but on the other hand the random memory access seems to be consistently rising with the rise of 
+	the allocated memory which is influenced by different cache size (L1d,L2,L3) that are shown in the graph.
+
+-) The graph does meet our expectations, it shows how latency is affected with the increase of the allocated memory
+	in the random memory access, although the graph should steadily be rising , we can notice some bumpy readings
+	around the 10^7 allocated memory mark, which the probable cause could be hardware interference since this isn't
+	the only reading we have done, the sequential memory access's latency is as expected.
+
+-) The difference we see in sequential and random memory accesses can be because of:
+	prefetching, although in our reading we abstain from CPU optimizations by using unknown compile-time values,
+	but accessing the memory sequentially can be identified which causes cache prefetching which enhances the
+	runtime of sequential access which is not the case in random memory accesses since we jump from one place to another
+	in memory with no pre-knowledge to where we are going.
+	
+-) cache levels affect the levels of latency, as we learned the caches (L1d,L2,L3) have different amounts of storage
+	like L1d being small and close to the CPU which makes it the fastest, and L2 being a bit bigger and a bit further
+	away which makes the latency a bit higher, and the same goes to the biggest caches L3, so for random memory accesses
+	the more the allocated memory is higher the higher we go in cache levels , therefor we go further away from the CPU
+	and try to access randomly which causes the latency to rise for higher bytes, but for sequential accesses CPU seems
+	to know the sequence and so everything happens in L1d cache which is the fastest and get near 1 ns latency.
+
+Bonus:
+
+Based on what we learned and what we see through our graph is that after most of the allocated bytes don't fit in any of our
+caches anymore, so we go beyond the L3 cache level and begin to deal with the RAM itself which majorly affects the latency	
+because it sends a command that goes through other parts before reaching the RAM and then retrieving the data. 
+also the virtual address being translated/turned into physical ones creates overhead and create more latency so when we 
+go beyond the page table eviction threshold we are entirely dealing with the RAM, so to conclude translating the virtual 
+addresses to physical ones, while accessing big array sizes randomly increases the latency a lot as seen in the graph.
