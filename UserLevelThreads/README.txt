@@ -1,0 +1,46 @@
+bashar.rashed, Yazan.saideh
+Student bashar rashed (213541097), Student Yazan saideh (325919033)
+EX: 2
+
+FILES:
+
+
+
+REMARKS:
+These are some remarks that
+I want the graders to know
+about this submission.
+
+ANSWERS:
+
+Part 1:
+1) a) sigsetjmp(): is a function that's like a bookmark, it saves the current CPU state and stack context (SP pointer) in env, 
+		   and enables siglongjmp() to jump to it later, while also affecting masking depending on savesigs.
+      siglongjmp(): is a function that's like jumping to a saved bookmark, jump to the code location where the CPU 
+      		    state and stack context where previously saved by savesigs().
+
+   b) sigsetjump(): the savesigs value affects the masking signal: 
+	1) if savesigs != 0: it saves the current signal mask (blocked signals) in env, so the blocked signals
+			     stay blocked after calling siglongjmp()
+	2) if savesigs == 0: it doesn't save the current signal mask and the signal mask (blocked signals) are
+			      the ones blocked after calling siglongjmp().
+      siglongjmp(): it doesn't really affect the mask other than blocking signals in the block code it's currently at,
+		    the val in its args only affects the value of the variable that saves the called sigsetjmp().
+
+2) a web server, since in a web server there a lot of back and forth between the user and the server and there are I/O 
+	operations that aren't CPU heavy, so using user-level threads would be reasonable for fast little to no latency,
+	on the other hand using kernel-level threads causes a lot of overhead wouldn't be ideal for users.
+
+3) since a process is isolated by the OS, each process has it's own virtual memory and space for it to complete its tasks,
+	and being isolated makes each process do it's tasks more efficiently and secured, also when one tab closes/crashes ,
+	it doesn't cause the other tabs to close.
+
+4) the keyboard causes hardware interrupts since we are writing using the keyboard on the shell, the keyboard drivers (in OS)
+	handle the interrupts, after finishing writing we press enter to the shell, which switches to kernel mode (if was in user mode)
+	to execute the kill system call, which does that by sending a signal 15 (SIGTERM) to the Shotwell, which receives it and handles 
+	the signal by terminating the process.
+	
+5) real time is the time that's in our real world and use like the in the clock.
+   virtual time is the time that the CPU takes to execute a process, it is divided into user time and system time:
+	where user time is the time that the execution takes in user mode, and the system time is the time spent in kernel mode.
+   *virtual time does not count the time taken for waiting for an input or similar time wasted waiting for something*.

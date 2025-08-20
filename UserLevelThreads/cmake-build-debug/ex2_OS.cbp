@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex2_OS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2_OS">
+				<Option output="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug/ex2_OS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2_OS"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2_OS/fast">
+				<Option output="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug/ex2_OS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2_OS/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/OneDrive/Desktop/ex2\ OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/Thread.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/Thread.h">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/demo_itimer.c">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test0_sanity.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test1.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test2.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test2_two_thread.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test3.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test4.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test5.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test6.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test7.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/test8.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/uthreads.cpp">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/uthreads.h">
+			<Option target="ex2_OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/OneDrive/Desktop/ex2 OS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
