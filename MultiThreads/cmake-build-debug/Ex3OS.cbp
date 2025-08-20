@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ex3OS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ex3OS">
+				<Option output="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Ex3OS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex3OS"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ex3OS/fast">
+				<Option output="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Ex3OS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex3OS/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/bashar/CLionProjects/Ex3OS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/Barrier.cpp">
+			<Option target="Ex3OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/Barrier.h">
+			<Option target="Ex3OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/MapReduceClient.h">
+			<Option target="Ex3OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/MapReduceFramework.cpp">
+			<Option target="Ex3OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/MapReduceFramework.h">
+			<Option target="Ex3OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/test4-1_thread_4_process.cpp">
+			<Option target="Ex3OS"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bashar/CLionProjects/Ex3OS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
